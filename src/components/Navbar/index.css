@@ -1,0 +1,7 @@
+.logoimage{
+    width:200px;
+}
+.fixernew{
+    position: fixed;
+    z-index: 10000;
+}
