@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className="bg-gray-700 w-full p-3 flex items-center justify-between flex-wrap  fixernew">
       <div className="flex items-center">
         <img
-          src="../../../public/white-green.d3a4a6b6698b604eb1026e4a9331fc5b.svg"
+          src="/white-green.d3a4a6b6698b604eb1026e4a9331fc5b.svg"
           className="logoimage"
           alt="Logo"
         />
