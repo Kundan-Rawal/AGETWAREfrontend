@@ -1,12 +1,59 @@
-# React + Vite
+# 🏦 Bank Lending System – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** of the Bank Lending System project for the Agetware internship assignment. It allows users to interact with the backend API to lend loans, record payments, view loan details, and see customer loan overviews.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+**[View Deployed Site](https://agetwarefrontend.vercel.app/)**  
+_Replace with your actual deployed Vercel URL._
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- ⚛️ React (with Vite)
+- 🎨 Tailwind CSS
+- 🌐 REST API Integration
+- 📦 Context API for global state management
+
+```plaintext
+frontend/
+├── public/
+│   └── white-green-logo.svg
+├── src/
+│   ├── components/
+│   │   └── Navbar.jsx
+|   |   ├── LendLoanPage.jsx
+|   |   ├── RecordPaymentPage.jsx
+|   |   ├── LoanDetailsPage.jsx
+|   |   └── AccountOverviewPage.jsx
+│   ├── context/
+│   │   └── StateContext.js
+│   ├── App.jsx
+│   └── main.jsx
+└── README.md
+```
+
+## 🔧 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Kundan-Rawal/AGETWAREfrontend.git
+cd agetware-frontend
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+### 3. Run the project locally
+```bash
+npm run dev
+```
+### 4. Build for Production
+```bash
+npm run build
+```
