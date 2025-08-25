@@ -24,7 +24,7 @@ class RecordPaymentPage extends Component {
 
     try {
       const res = await axios.post(
-        `https://agetwareassignment-production.up.railway.app/api/v1/loans/${loan_id}/payments`,
+        `https://agetwareassignmentmain.onrender.com/api/v1/loans/${loan_id}/payments`,
         {
           amount: parseFloat(amount),
           payment_type,
