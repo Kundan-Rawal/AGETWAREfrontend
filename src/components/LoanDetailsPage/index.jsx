@@ -18,7 +18,7 @@ class LoanDetailsPage extends Component {
 
     try {
       const res = await axios.get(
-        `https://agetwareassignment-production.up.railway.app/api/v1/loans/${loan_id}/ledger`
+        `https://agetwareassignmentmain.onrender.com/api/v1/loans/${loan_id}/ledger`
       );
       this.setState({ data: res.data, error: "" });
     } catch (err) {

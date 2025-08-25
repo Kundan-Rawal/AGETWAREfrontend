@@ -50,7 +50,7 @@ class LendLoanPage extends Component {
     } = this.state;
     try {
       const res = await axios.post(
-        `https://agetwareassignment-production.up.railway.app/api/v1/loans`,
+        `https://agetwareassignmentmain.onrender.com/api/v1/loans`,
         {
           customer_id,
           loan_amount: parseFloat(loan_amount),

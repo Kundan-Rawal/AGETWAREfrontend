@@ -14,7 +14,7 @@ const AccountOverviewPage = () => {
 
     try {
       const response = await fetch(
-        `https://agetwareassignment-production.up.railway.app/api/v1/customers/${customerId}/overview`
+        `https://agetwareassignmentmain.onrender.com/api/v1/customers/${customerId}/overview`
       );
 
       if (!response.ok) {
